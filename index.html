@@ -21,7 +21,7 @@
         <div class="row justify-content-end">
           <div class="col-3">
             <div class="d-flex justify-content-center">
-              <button>
+              <button onclick="reset()">
                 reset
               </button>
             </div>
@@ -42,32 +42,32 @@
               <h1>Away</h1>
             </div>
             <div class="col-6">
-              <h2>00</h2>
+              <h2 id="addScoreHome">0</h2>
             </div>
             <div class="col-6">
-              <h1>00</h1>
+              <h2 id="addScoreAway">0</h2>
             </div>
           </div>
         </div>
         <div class="col-6">
-          <button>
+          <button onclick="homeAddScore1()">
             Home+1
           </button>
-          <button>
+          <button onclick="homeAddScore3()">
             Home+3
           </button>
-          <button>
+          <button onclick="homeSubScore1()">
             Home-1
           </button>
         </div>
         <div class="col-6">
-          <button>
+          <button onclick="awayAddScore1()">
             Away+1
           </button>
-          <button>
+          <button onclick="awayAddScore3()">
             Away+3
           </button>
-          <button>
+          <button onclick="awaySubScore1()">
             Away-1
           </button>
         </div>
